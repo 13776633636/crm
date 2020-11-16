@@ -4,9 +4,6 @@ public class MyException extends RuntimeException{
    private  String msg;
    private Integer code;
 
-
-
-
     public MyException(Integer code) {
         this.code = code;
     }
