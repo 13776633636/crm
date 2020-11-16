@@ -19,6 +19,7 @@ public class MenuServiceImpl implements MenuService {
     public  List<Map<String, Object>> selectList() {
         List<Map<String, Object>> map = menuDao.selectList();
         System.out.println(map);
+        System.out.println(map);
         return map;
     }
 }
